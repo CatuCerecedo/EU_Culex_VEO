@@ -30,9 +30,6 @@ europe <- eurostat::get_eurostat_geospatial(resolution = 10,
   st_transform(4326)
 plot(st_geometry(europe))
 
-# Raster template
-pname <- "ERA5_EU_monthly_"
-
 # Getting a template
 my_grib = paste0(loc.output, "/ERA5_Download/ERA5_EU_monthly_")
 

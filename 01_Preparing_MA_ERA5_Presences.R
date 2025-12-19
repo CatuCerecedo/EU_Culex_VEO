@@ -51,7 +51,7 @@ template$pixel_id <- as.factor(raster::cellFromXY(tmp_raster, st_coordinates(tem
 
 # Loading reports data --------------------------------------------------------
 # Note: the data was downloaded from Mosquito Alert Data Portal
-culex = readxl::read_xlsx(paste0(loc.data, 'culex_2020_2023_EnricPou.csv')) %>%
+culex = readxl::read_xlsx(paste0(loc.data, 'culex_2020_2023.csv')) %>%
   rename("lon" = "location__point__longitude",
          "lat" = "location__point__latitude",
          "where" = "event_environment") %>%
