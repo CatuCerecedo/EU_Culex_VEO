@@ -23,11 +23,7 @@ loc.fig <- paste0(getwd(), "/FIGURES/")
 
 # We need the a dataframe with pixel ID
 # Getting a template
-# In local
 my_grib = paste0(loc.output, "/ERA5_Download/ERA5_EU_monthly_")
-
-# in cluster
-# my_grib <- "/home/ccerecedo/ERA5_Download/EU_ERA5_Land_hourly_data/ERA5_EU_monthly_"
 
 year = "2023"
 month = "01"
